@@ -1,21 +1,21 @@
 # Shopware 6
-bin/*
-!bin/console
-!bin/shopware
+#bin/*
+#!bin/console
+#!bin/shopware
 
-custom/plugins/*/vendor
-custom/plugins/*/node_modules
-custom/plugins/*/assets
+#custom/plugins/*/vendor
+#custom/plugins/*/node_modules
+#custom/plugins/*/assets
 
-public/bundles
-public/theme
-public/updates
-public/recovery/install
+#public/bundles
+#public/theme
+#public/updates
+#public/recovery/install
 
 var/cache/*
 var/log/*
-var/theme
-var/updates
+#var/theme
+#var/updates
 
 vendor/*
 !vendor/autoload.php
